@@ -1,0 +1,53 @@
+
+body {
+    color: rgb(102, 11, 11);
+    background: rgb(0, 0, 0);
+    margin:25px
+}
+
+header {
+    border-bottom: solid 8px rgb(68, 1, 1);
+    font-size: 30px;
+    padding: 0px;
+    color: rgb(71, 2, 2);    
+}
+
+section {
+background-color: rgb(22, 18, 18);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+.chamada-texto {
+margin-right: 5%; 
+border-right: solid 10px rgb(71, 4, 4)
+}
+h1{
+    font-size:32px;
+    font-family:"Gill Sans", "Gill Sans MT", Calibre,"trebuchet MS", sans-serif;
+}
+p{
+    font-size:20px;
+}
+img {
+height: 200px
+}
+.categoria-videos{
+    display:flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    height: 230px;
+    border: solid 5px red
+}
